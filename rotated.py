@@ -1,12 +1,7 @@
 import cv2
 import math
-import numpy as np
 import os
-import glob
-import json
-import shutil
 import xml.etree.ElementTree as ET
-from xml.etree.ElementTree import ElementTree, Element
 
 def getRotatedImg(Pi_angle,img_path,img_write_path):
     img = cv2.imread(img_path)
